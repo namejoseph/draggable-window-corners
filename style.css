@@ -1,0 +1,19 @@
+body::before {
+  content: url('cursor-target.png') url('cursor-new-arrow.png');
+  display: none;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #000;
+  overflow: hidden;
+  cursor: none; /* Hide the default cursor */
+}
+
+#sketch-container {
+  border: 0px solid #000;
+}
